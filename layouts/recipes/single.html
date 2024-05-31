@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article>
+  <header>
+    <h1>{{ .Title }}</h1>
+    <p><time>{{ .Date }}</time></p>
+  </header>
+  <section>
+    <h2>Ingrédients</h2>
+    <ul>
+      {{ range .Params.ingredients }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+    <h2>Instructions</h2>
+    <ol>
+      {{ range .Params.instructions }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ol>
+  </section>
+  <footer>
+    <p>{{ .Content }}</p>
+  </footer>
+</article>
+{{ end }}
