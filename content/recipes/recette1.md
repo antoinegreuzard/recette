@@ -1,16 +1,20 @@
 ---
-title: "Recette 1"
+title: "Gâteau au Chocolat"
 date: 2024-05-31
 categories: ["Desserts"]
 ingredients:
-  - "1 tasse de sucre"
-  - "2 œufs"
-  - "1 tasse de farine"
+  - "200g de chocolat noir"
+  - "150g de beurre"
+  - "3 œufs"
+  - "100g de sucre"
+  - "50g de farine"
 instructions:
   - "Préchauffez le four à 180°C."
-  - "Mélangez le sucre et les œufs."
-  - "Ajoutez la farine et mélangez jusqu'à consistance lisse."
-  - "Versez dans un moule et faites cuire pendant 30 minutes."
+  - "Faites fondre le chocolat et le beurre au bain-marie."
+  - "Mélangez les œufs et le sucre jusqu'à blanchiment."
+  - "Ajoutez le mélange chocolat-beurre aux œufs et sucre."
+  - "Incorporez la farine."
+  - "Versez dans un moule et enfournez 25 minutes."
 ---
 
-Détails et astuces pour la recette 1.
+Un délicieux gâteau au chocolat fondant.
