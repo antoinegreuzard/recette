@@ -2,7 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'fr-fr'
 title = 'Recette'
 
-theme = "hello-friend-ng"
+theme = "anubis2"
 
 [params]
   author = "Antoine Greuzard"
