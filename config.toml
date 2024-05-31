@@ -1,7 +1,0 @@
-theme = "tasteful"
-theme = "hello-friend-ng"
-
-[params]
-  author = "Antoine Greuzard"
-  description = "Un site de recettes de cuisine."
-  disqusShortname = "admin"
