@@ -8,3 +8,16 @@ theme = "hello-friend-ng"
   author = "Antoine Greuzard"
   description = "Un site de recettes de cuisine."
   disqusShortname = "admin"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "À propos"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
