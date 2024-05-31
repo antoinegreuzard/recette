@@ -1,23 +1,20 @@
 baseURL = 'https://example.org/'
 languageCode = 'fr-fr'
 title = 'Recette'
+enableRobotsTXT = true
+paginate = 10
+defaultContentLanguage = "fr"
+summaryLength = 70
 
 theme = "anubis2"
+
+[markup.goldmark.renderer]
+  unsafe = true # Enable unsafe mode to have a better experience
+
+[markup.highlight]
+  style = 'base16-snazzy' # Highlight.js style
 
 [params]
   author = "Antoine Greuzard"
   description = "Un site de recettes de cuisine."
   disqusShortname = "admin"
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "À propos"
-    url = "/about/"
-    weight = 1
-
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 2

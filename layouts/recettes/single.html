@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Date }}</p>
+  <div>
+    <h2>Ingrédients</h2>
+    <ul>
+      {{ range .Params.ingredients }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+  <div>
+    <h2>Étapes</h2>
+    <ol>
+      {{ range .Params.steps }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ol>
+  </div>
+  <div>
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}
